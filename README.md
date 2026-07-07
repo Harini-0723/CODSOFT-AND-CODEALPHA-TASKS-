@@ -1,20 +1,23 @@
-# 🧮 Simple Calculator
+# 🔐 Password Generator
 
-## 📌 Task 2 - CodSoft Python Programming Internship
+## 📌 Task 3 - CodSoft Python Programming Internship
 
-A simple command-line calculator built using Python that performs basic arithmetic operations such as Addition, Subtraction, Multiplication, and Division. The program accepts two numbers and an operation choice from the user, performs the selected calculation, and displays the result.
+This project is a Password Generator developed using Python. It creates strong and random passwords based on the length provided by the user. The generated password includes uppercase letters, lowercase letters, digits, and special characters to ensure better security.
 
 ---
 
 ## 🚀 Features
 
-- Addition of two numbers
-- Subtraction of two numbers
-- Multiplication of two numbers
-- Division of two numbers
-- Handles division by zero
-- Validates user input using exception handling
-- Simple and user-friendly command-line interface
+- Generates strong and secure passwords
+- User specifies the password length
+- Includes:
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Special characters
+- Randomized password generation
+- Input validation
+- Simple command-line interface
 
 ---
 
@@ -25,10 +28,10 @@ A simple command-line calculator built using Python that performs basic arithmet
 
 ---
 
-## 📂 Files
+## 📂 Project Files
 
 ```
-calculator.py
+password_generator.py
 README.md
 ```
 
@@ -36,61 +39,47 @@ README.md
 
 ## ▶️ How to Run
 
-1. Install Python 3 on your computer.
-2. Download or clone this repository.
-3. Open the project folder in Visual Studio Code.
-4. Open the terminal.
-5. Run the following command:
+1. Install Python 3.
+2. Open the project in Visual Studio Code.
+3. Open the terminal.
+4. Run:
 
 ```bash
-python calculator.py
+python password_generator.py
 ```
 
-If Python is installed as Python 3 on your system, use:
+or
 
 ```bash
-python3 calculator.py
+python3 password_generator.py
 ```
 
 ---
 
-## 💻 Example Output
+## 💻 Sample Output
 
 ```
-=================================
-      SIMPLE CALCULATOR
-=================================
-Enter the first number: 25
-Enter the second number: 5
+=============================================
+        RANDOM PASSWORD GENERATOR
+=============================================
 
-Choose an operation:
-1. Addition (+)
-2. Subtraction (-)
-3. Multiplication (*)
-4. Division (/)
+Enter password length (minimum 4): 12
 
-Enter your choice (1/2/3/4): 3
-
-Result: 25.0 * 5.0 = 125.0
+Generated Password:
+A@9kLm#4!pQ7
 ```
-
----
-
-## ⚠️ Error Handling
-
-- Prevents division by zero.
-- Displays an error message for invalid numeric input.
-- Displays an error message for invalid menu choices.
 
 ---
 
 ## 📚 Concepts Used
 
 - Python Functions
+- Random Module
+- String Module
 - User Input
-- Conditional Statements (`if`, `elif`, `else`)
-- Exception Handling (`try` and `except`)
-- Arithmetic Operators
+- Exception Handling
+- Lists
+- Loops
 
 ---
 
@@ -98,11 +87,11 @@ Result: 25.0 * 5.0 = 125.0
 
 This project helped me understand:
 
-- Taking user input in Python
-- Using conditional statements
-- Implementing arithmetic operations
-- Handling exceptions
-- Developing a simple command-line application
+- Random password generation
+- Working with Python's built-in modules
+- User input validation
+- Exception handling
+- Building a simple command-line application
 
 ---
 
