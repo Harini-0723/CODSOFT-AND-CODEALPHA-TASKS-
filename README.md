@@ -1,93 +1,112 @@
-# 📝 To-Do List Application
+# 🧮 Simple Calculator
 
-A simple command-line To-Do List application built using Python. This application allows users to manage their daily tasks by adding, viewing, updating, and deleting tasks through a menu-driven interface.
+## 📌 Task 2 - CodSoft Python Programming Internship
 
-## 📌 Features
+A simple command-line calculator built using Python that performs basic arithmetic operations such as Addition, Subtraction, Multiplication, and Division. The program accepts two numbers and an operation choice from the user, performs the selected calculation, and displays the result.
 
-- ➕ Add new tasks
-- 📋 View all tasks
-- ✏️ Update existing tasks
-- ❌ Delete tasks
-- 🚪 Exit the application
+---
+
+## 🚀 Features
+
+- Addition of two numbers
+- Subtraction of two numbers
+- Multiplication of two numbers
+- Division of two numbers
+- Handles division by zero
+- Validates user input using exception handling
+- Simple and user-friendly command-line interface
+
+---
 
 ## 🛠️ Technologies Used
 
 - Python 3
+- Visual Studio Code
 
-## 📂 Project Structure
+---
+
+## 📂 Files
 
 ```
-ToDoList/
-│── todolist.py
-│── README.md
+calculator.py
+README.md
 ```
+
+---
 
 ## ▶️ How to Run
 
-1. Clone the repository:
+1. Install Python 3 on your computer.
+2. Download or clone this repository.
+3. Open the project folder in Visual Studio Code.
+4. Open the terminal.
+5. Run the following command:
 
 ```bash
-git clone https://github.com/your-username/CODSOFT-AND-CODEALPHA-TASKS.git
+python calculator.py
 ```
 
-2. Navigate to the project folder:
+If Python is installed as Python 3 on your system, use:
 
 ```bash
-cd CODSOFT-AND-CODEALPHA-TASKS
+python3 calculator.py
 ```
 
-3. Run the program:
+---
 
-```bash
-python todolist.py
-```
-
-## 📖 Menu Options
+## 💻 Example Output
 
 ```
---- TO-DO LIST MENU ---
+=================================
+      SIMPLE CALCULATOR
+=================================
+Enter the first number: 25
+Enter the second number: 5
 
-1. Add Task
-2. View Tasks
-3. Update Task
-4. Delete Task
-5. Exit
+Choose an operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+
+Enter your choice (1/2/3/4): 3
+
+Result: 25.0 * 5.0 = 125.0
 ```
 
-## 💻 Sample Output
+---
 
-```
---- TO-DO LIST MENU ---
+## ⚠️ Error Handling
 
-1. Add Task
-2. View Tasks
-3. Update Task
-4. Delete Task
-5. Exit
+- Prevents division by zero.
+- Displays an error message for invalid numeric input.
+- Displays an error message for invalid menu choices.
 
-Enter your choice: 1
-Enter a new task: Buy vegetables
-Task 'Buy vegetables' added successfully!
+---
 
-Enter your choice: 2
+## 📚 Concepts Used
 
-Your TO-DO LIST:
-1. Buy vegetables
-```
+- Python Functions
+- User Input
+- Conditional Statements (`if`, `elif`, `else`)
+- Exception Handling (`try` and `except`)
+- Arithmetic Operators
+
+---
 
 ## 🎯 Learning Outcomes
 
-- Functions in Python
-- Lists and List Operations
-- Conditional Statements
-- Loops
-- Exception Handling
-- Menu-Driven Programming
+This project helped me understand:
+
+- Taking user input in Python
+- Using conditional statements
+- Implementing arithmetic operations
+- Handling exceptions
+- Developing a simple command-line application
+
+---
 
 ## 👩‍💻 Author
 
 **Harini S**
 
----
-
-⭐ If you found this project useful, feel free to star the repository!
