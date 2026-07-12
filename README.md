@@ -1,23 +1,20 @@
-# 🔐 Password Generator
+# ✊ Rock Paper Scissors Game
 
-## 📌 Task 3 - CodSoft Python Programming Internship
+## 📌 Task 4 - CodSoft Python Programming Internship
 
-This project is a Password Generator developed using Python. It creates strong and random passwords based on the length provided by the user. The generated password includes uppercase letters, lowercase letters, digits, and special characters to ensure better security.
+This project is a command-line implementation of the classic **Rock-Paper-Scissors Game** using Python. The user plays against the computer, which randomly selects its move. The game determines the winner based on the standard rules and keeps track of scores across multiple rounds.
 
 ---
 
 ## 🚀 Features
 
-- Generates strong and secure passwords
-- User specifies the password length
-- Includes:
-  - Uppercase letters
-  - Lowercase letters
-  - Numbers
-  - Special characters
-- Randomized password generation
+- Play against the computer
+- Random computer selection
+- Winner determination
+- Score tracking
+- Multiple rounds
+- User-friendly interface
 - Input validation
-- Simple command-line interface
 
 ---
 
@@ -31,7 +28,7 @@ This project is a Password Generator developed using Python. It creates strong a
 ## 📂 Project Files
 
 ```
-password_generator.py
+rock_paper_scissors.py
 README.md
 ```
 
@@ -45,13 +42,7 @@ README.md
 4. Run:
 
 ```bash
-python password_generator.py
-```
-
-or
-
-```bash
-python3 password_generator.py
+python rock_paper_scissors.py
 ```
 
 ---
@@ -60,13 +51,24 @@ python3 password_generator.py
 
 ```
 =============================================
-        RANDOM PASSWORD GENERATOR
+      ROCK PAPER SCISSORS GAME
 =============================================
 
-Enter password length (minimum 4): 12
+Choose one:
+1. Rock
+2. Paper
+3. Scissors
 
-Generated Password:
-A@9kLm#4!pQ7
+Enter your choice (rock/paper/scissors): rock
+
+You chose      : rock
+Computer chose : scissors
+
+🎉 You Win!
+
+Current Score
+You      : 1
+Computer : 0
 ```
 
 ---
@@ -75,11 +77,10 @@ A@9kLm#4!pQ7
 
 - Python Functions
 - Random Module
-- String Module
-- User Input
-- Exception Handling
-- Lists
 - Loops
+- Conditional Statements
+- User Input
+- Score Tracking
 
 ---
 
@@ -87,11 +88,11 @@ A@9kLm#4!pQ7
 
 This project helped me understand:
 
-- Random password generation
-- Working with Python's built-in modules
-- User input validation
-- Exception handling
-- Building a simple command-line application
+- Random value generation
+- Decision-making using conditional statements
+- Loop implementation
+- Score tracking
+- Interactive command-line applications
 
 ---
 
