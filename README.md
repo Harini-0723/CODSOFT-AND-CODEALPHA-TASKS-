@@ -1,20 +1,20 @@
-# ✊ Rock Paper Scissors Game
+# 📒 Contact Book
 
-## 📌 Task 4 - CodSoft Python Programming Internship
+## 📌 Task 5 - CodSoft Python Programming Internship
 
-This project is a command-line implementation of the classic **Rock-Paper-Scissors Game** using Python. The user plays against the computer, which randomly selects its move. The game determines the winner based on the standard rules and keeps track of scores across multiple rounds.
+This project is a command-line Contact Book application developed using Python. It allows users to store and manage contact information efficiently. Users can add, view, search, update, and delete contacts through an interactive menu-driven interface.
 
 ---
 
 ## 🚀 Features
 
-- Play against the computer
-- Random computer selection
-- Winner determination
-- Score tracking
-- Multiple rounds
-- User-friendly interface
-- Input validation
+- Add new contacts
+- View all contacts
+- Search contacts by name
+- Update existing contact details
+- Delete contacts
+- Menu-driven interface
+- Easy to use
 
 ---
 
@@ -28,7 +28,7 @@ This project is a command-line implementation of the classic **Rock-Paper-Scisso
 ## 📂 Project Files
 
 ```
-rock_paper_scissors.py
+contact_book.py
 README.md
 ```
 
@@ -36,13 +36,8 @@ README.md
 
 ## ▶️ How to Run
 
-1. Install Python 3.
-2. Open the project in Visual Studio Code.
-3. Open the terminal.
-4. Run:
-
 ```bash
-python rock_paper_scissors.py
+python contact_book.py
 ```
 
 ---
@@ -50,49 +45,37 @@ python rock_paper_scissors.py
 ## 💻 Sample Output
 
 ```
-=============================================
-      ROCK PAPER SCISSORS GAME
-=============================================
+==============================
+      CONTACT BOOK
+==============================
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
 
-Choose one:
-1. Rock
-2. Paper
-3. Scissors
-
-Enter your choice (rock/paper/scissors): rock
-
-You chose      : rock
-Computer chose : scissors
-
-🎉 You Win!
-
-Current Score
-You      : 1
-Computer : 0
+Enter your choice: 1
 ```
 
 ---
 
 ## 📚 Concepts Used
 
-- Python Functions
-- Random Module
+- Python Dictionaries
+- Functions
 - Loops
 - Conditional Statements
-- User Input
-- Score Tracking
+- User Input Handling
 
 ---
 
 ## 🎯 Learning Outcomes
 
-This project helped me understand:
-
-- Random value generation
-- Decision-making using conditional statements
-- Loop implementation
-- Score tracking
-- Interactive command-line applications
+- Managing data using dictionaries
+- Building CRUD (Create, Read, Update, Delete) applications
+- Creating interactive menu-driven programs
+- Strengthening Python fundamentals
 
 ---
 
